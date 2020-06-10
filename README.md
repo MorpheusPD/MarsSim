@@ -3,7 +3,7 @@ Planetary-like environment in ROS Gazebo + Blender
 
 
 # References
-This simulated environment is used in the paper "Simulation Framework for Mobile Robots in Planetary-Like Environments". If you find it useful for your projects and research, consider to cite our paper using the following BibTeX:
+This simulated environment is used in "Simulation Framework for Mobile Robots in Planetary-Like Environments", in IEEE International Workshop on Metrology for Aerospace, 2020. If you find it useful for your projects and research, consider to cite our paper using the following BibTeX:
 ```
 @INPROCEEDINGS{giubilato2020simulation,
   author    = {R. Giubilato and A. Masili and S. Chiodini and 
