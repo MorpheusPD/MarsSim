@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+   <world name="default">
+
+<scene>
+      <ambient>0.8 0.5 0.27 1</ambient>
+      <background>0.70 0.4 0.2 1</background>
+      <shadows>1</shadows>
+
+
+    </scene>
+
+
+
+      <include>
+         <uri>model://ground_plane</uri>
+      </include>
+      <include>
+         <uri>model://sun</uri>
+      </include>
+
+
+    <include>
+      <uri>model://flatsmars</uri>
+    </include>
+    <include>
+      <uri>model://smars_dense_rocks</uri>
+    </include>
+
+   
+    <include>
+      <uri>model://boxbot</uri>
+    </include>
+
+   
+    <include>
+      <uri>model://smars_cluster_rocks</uri>
+    </include>
+
+
+
+     
+   </world>
+
+
+
+
+  
+</sdf>

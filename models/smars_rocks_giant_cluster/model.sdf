@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="smars_rock_cluster">
+    <static>true</static>
+
+    <link name="rock2">
+      <collision name="collision">
+         <pose>0 0 0 0 0 1.570796</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://smars_rocks_giant_cluster/Smars_giantCluster.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+         <pose>0 0 0 0 0 1.570796</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://smars_rocks_giant_cluster/Smars_giantCluster.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+
+
+
+
+  </model>
+</sdf>

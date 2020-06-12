@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+   <world name="default">
+      <include>
+         <uri>model://sun</uri>
+      </include>
+
+
+    <include>
+      <uri>model://flatsmars</uri>
+    </include>
+    <include>
+      <uri>model://smars_dense_rocks</uri>
+    </include>
+
+   
+    <include>
+      <uri>model://boxbot</uri>
+    </include>
+
+
+
+     
+   </world>
+
+
+
+
+  
+</sdf>

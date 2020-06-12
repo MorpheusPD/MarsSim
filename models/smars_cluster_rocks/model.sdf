@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="smars_rock_cluster">
+    <static>true</static>
+
+    <link name="rock2">
+      <collision name="collision">
+        <pose>19 71 9 -1.23 -1.55 0</pose>
+        <geometry>
+          <mesh>
+            <scale>2 2 2</scale>
+            <uri>model://smars_rock_5/rock5.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <pose>19 71 9 -1.23 -1.55 0</pose>
+        <geometry>
+          <mesh>
+            <scale>2 2 2</scale>
+            <uri>model://smars_rock_5/rock5.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+
+
+
+
+  </model>
+</sdf>

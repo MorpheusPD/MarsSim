@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+    <model name="heightmap">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>model://flatsmars/materials/textures/flatsmars.png</uri>
+              <size>1024 1024 16</size>
+              <pos>0 0 0</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+        <visual name="visual_abcedf">
+          <geometry>
+            <heightmap>
+              <use_terrain_paging>false</use_terrain_paging>
+              <texture>
+                <diffuse>model://flatsmars/materials/textures/002_1.jpg</diffuse>
+                <normal>model://flatsmars/materials/textures/002_NRM.jpg</normal>
+                <size>1</size>
+              </texture>
+              <texture>
+                <diffuse>model://flatsmars/materials/textures/002_2.jpg</diffuse>
+                <normal>model://flatsmars/materials/textures/002_NRM.jpg</normal>
+                <size>1</size>
+              </texture>
+              <texture>
+                <diffuse>model://flatsmars/materials/textures/002_3.jpg</diffuse>
+                <normal>model://flatsmars/materials/textures/002_NRM.jpg</normal>
+                <size>1</size>
+              </texture>
+              <texture>
+                <diffuse>model://flatsmars/materials/textures/002_4.jpg</diffuse>
+                <normal>model://flatsmars/materials/textures/002_NRM.jpg</normal>
+                <size>1</size>
+              </texture>
+              <texture>
+                <diffuse>model://flatsmars/materials/textures/003_5.jpg</diffuse>
+                <normal>model://flatsmars/materials/textures/003_NRM.jpg</normal>
+                <size>1</size>
+              </texture>
+             <blend>
+                <min_height>0</min_height>
+                <fade_dist>4</fade_dist>
+              </blend>
+              <blend>
+                <min_height>4</min_height>
+                <fade_dist>4</fade_dist>
+              </blend>
+              <blend>
+                <min_height>8</min_height>
+                <fade_dist>4</fade_dist>
+              </blend>
+              <blend>
+                <min_height>12</min_height>
+                <fade_dist>4</fade_dist>
+              </blend>
+              <uri>model://flatsmars/materials/textures/flatsmars.png</uri>
+              <size>1024 1024 16</size>
+              <pos>0 0 0</pos>
+            </heightmap>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>

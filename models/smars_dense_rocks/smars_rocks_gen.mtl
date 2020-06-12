@@ -1,0 +1,130 @@
+# Blender MTL File: 'smarsliverROCKGEN.blend'
+# Material Count: 11
+
+newmtl M_Rock_01.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_01_N.TGA
+map_Kd textures/T_Rock_01_D.jpg
+
+newmtl M_Rock_02.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_02_N.TGA
+map_Kd textures/T_Rock_02_D.jpg
+
+newmtl M_Rock_02.002
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_02_N.TGA
+map_Kd textures/T_Rock_02_D.jpg
+
+newmtl M_Rock_03.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_03_N.TGA
+map_Kd textures/T_Rock_03_D.jpg
+
+newmtl M_Rock_04
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_04_N.TGA
+map_Kd textures/T_Rock_04_D.jpg
+
+newmtl M_Rock_04.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_04_N.TGA
+map_Kd textures/T_Rock_04_D.jpg
+
+newmtl M_Rock_05
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_05_N.TGA
+map_Kd textures/T_Rock_05_D.jpg
+
+newmtl M_Rock_05.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_05_N.TGA
+map_Kd textures/T_Rock_05_D.jpg
+
+newmtl M_Rock_06
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_06_N.TGA
+map_Kd textures/T_Rock_06_D.jpg
+
+newmtl M_Rock_06.001
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Bump textures/T_Rock_06_N.TGA
+map_Kd textures/T_Rock_06_D.jpg
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
