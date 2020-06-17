@@ -1,6 +1,13 @@
 # MarsSim
 Planetary-like environment in ROS Gazebo + Blender
 
+Tested on **Ubuntu 16.04** & **Gazebo 8**
+
+### Environments
+```world.launch```: spawn world generated from cropped martian DTM + added populations of rocks of various size
+```actor_long.launch```: spawn world and box with stereocamera and 3D LiDAR moving on a fixed closed path of ~300 meters
+```actor_long_rocks.launch```: as before, but this time more rocks are present, some of them are big boulders
+```actor_short.launch```: spawn world and box with stereocamera and 3D LiDAR moving on a short path of ~60 meters
 
 # References
 This simulated environment is used in "Simulation Framework for Mobile Robots in Planetary-Like Environments", in IEEE International Workshop on Metrology for Aerospace, 2020. If you find it useful for your projects and research, consider to cite our paper using the following BibTeX:
