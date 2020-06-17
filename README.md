@@ -3,6 +3,8 @@ Planetary-like environment in ROS Gazebo + Blender
 
 Tested on **Ubuntu 16.04** & **Gazebo 8**
 
+<img src="imgs/intro_pic.png" width="350"/> <img src="imgs/legoloam.png" width="250" />
+
 ### Environments
 ```world.launch```: spawn world generated from cropped martian DTM + added populations of rocks of various size
 ```actor_long.launch```: spawn world and box with stereocamera and 3D LiDAR moving on a fixed closed path of ~300 meters
