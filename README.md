@@ -3,7 +3,7 @@ Planetary-like environment in ROS Gazebo + Blender
 
 Tested on **Ubuntu 16.04** & **Gazebo 8**
 
-![Env](imgs/intro_pic.png "Environment & Rendered View" | width=100) ![Map](legoloam.png "Map & Trajectory from LeGO-LOAM" | width=100)
+![Env](imgs/intro_pic.png | width=100) ![Map](legoloam.png | width=100)
 
 ### Environments
 ```world.launch```: spawn world generated from cropped martian DTM + added populations of rocks of various size
