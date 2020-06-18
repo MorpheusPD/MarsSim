@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+   <actor name="animated_box">
+
+        <link name="box_link">
+          <visual name="visual">
+            <geometry>
+              <box>
+                <size>1 1 1</size>
+              </box>
+            </geometry>
+          </visual>
+<sensor type="multicamera" name="stereo_camera">
+      <update_rate>30.0</update_rate>
+      <camera name="left">
+	<pose>0 0 0 0 0 1.571</pose>
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>1280</width>
+          <height>720</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <camera name="right">
+        <pose>0.12 0 0 0 0 1.571</pose>
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>1280</width>
+          <height>720</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="stereo_camera_controller" filename="libgazebo_ros_multicamera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>30.0</updateRate>
+        <cameraName>multisense_sl/camera</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>box_frame</frameName>
+        <!--<rightFrameName>right_camera_optical_frame</rightFrameName>-->
+        <hackBaseline>0.12</hackBaseline>
+        <distortionK1>0</distortionK1>
+        <distortionK2>0</distortionK2>
+        <distortionK3>0.0</distortionK3>
+        <distortionT1>0.0</distortionT1>
+        <distortionT2>0.0</distortionT2>
+      </plugin>
+      <plugin name="lensflare" filename="libLensFlareSensorPlugin.so"/>
+    </sensor>
+
+		<sensor type="gpu_ray" name="VLP16">
+		    <pose>0 0 0 0 0 0</pose>
+		    <visualize>false</visualize>
+		    <update_rate>10</update_rate>
+		    <ray>
+		      <scan>
+			<horizontal>
+			  <samples>1800</samples>
+			  <resolution>1</resolution>
+			  <min_angle>-3.14</min_angle>
+			  <max_angle>3.14</max_angle>
+			</horizontal>
+			<vertical>
+			  <samples>64</samples>
+			  <resolution>1</resolution>
+			  <min_angle>-0.28</min_angle>
+			  <max_angle> 0.28</max_angle>
+			</vertical>
+		      </scan>
+		      <range>
+			<min>1.5</min>
+			<max>100</max>
+			<resolution>0.001</resolution>
+		      </range>
+		      <noise>
+			<type>gaussian</type>
+			<mean>0.0</mean>
+			<stddev>0.0</stddev>
+		      </noise>
+		    </ray>
+		    <plugin name="gazebo_ros_laser_controller" filename="libgazebo_ros_velodyne_gpu_laser.so">
+		      <topicName>/velodyne_points</topicName>
+		      <frameName>box_frame</frameName>
+		      <min_range>1.5</min_range>
+		      <max_range>100</max_range>
+		      <gaussianNoise>0.01</gaussianNoise>
+		    </plugin>
+		  </sensor>
+
+
+</link>
+        <script>
+          <loop>false</loop>
+          <auto_start>true</auto_start>
+          <trajectory id="0" type="square">
+
+
+
+
+          </trajectory>
+        </script>
+      </actor>
+</sdf>
