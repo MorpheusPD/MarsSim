@@ -10,5 +10,5 @@ adds to an existing sdf file the waypoints from the path generated in Blender
 export the ground truth CSV file
 
 ## Notes
-As Gazebo interpolates the waypoints contained in the ```.csv``` file, unexpected behaviors might arise because of the Euler angle periodicity.  
+As Gazebo interpolates the waypoint poses contained in the ```.csv``` file, unexpected behaviors might arise because of the Euler angle periodicity.  
 
