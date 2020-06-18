@@ -7,7 +7,7 @@ To instruct the Gazebo actor and export a ground truth for further processing (e
 adds to an existing sdf file the waypoints from the path generated in Blender
 
 - ```toCSV```:
-export the ground truth CSV file
+export the path to a CSV file (3D poses + Euler angles)
 
 ## Notes
 As Gazebo interpolates the waypoint poses contained in the ```.csv``` file, unexpected behaviors might arise because of the Euler angle periodicity.  
