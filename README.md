@@ -4,9 +4,7 @@ Planetary-like environment in ROS Gazebo + Blender
 Tested on **Ubuntu 16.04** & **Gazebo 8**
 
 Requires the Velodyne simulator for Gazebo:
-```
-https://bitbucket.org/DataspeedInc/velodyne_simulator
-```
+```https://bitbucket.org/DataspeedInc/velodyne_simulator```
 
 <img src="imgs/intro_pic.png" width="400"/> <img src="imgs/legoloam.png" width="350" /> 
 
